@@ -1,0 +1,23 @@
+.button {
+  min-width: 80px;
+  border: 0;
+  cursor: pointer;
+  color: white;
+  padding: 10px;
+  margin-right: 5px;
+}
+
+.good {
+  composes: button;
+  background-color: #009933;
+}
+
+.neutral {
+  composes: button;
+  background-color: orange;
+}
+
+.bad {
+  composes: button;
+  background-color: tomato;
+}
